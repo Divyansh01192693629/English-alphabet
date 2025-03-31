@@ -1,0 +1,341 @@
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/027/231/618/non_2x/illustration-graphic-of-aesthetic-background-template-with-subtle-pastel-colors-and-nature-motifs-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 30px;
+    /* margin-top: 30px; */
+}
+
+
+.container{
+    height:1200px;
+    width:700px;
+    background-color:#EB5B00;
+    border:3px solid #041820;
+    border-radius:15px;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    margin:0px auto;
+    align-items:center;
+    margin-top: 30px;
+}
+#heading{
+    margin-top:5px;
+    text-align: right;
+    color:goldenrod;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:2em;
+    flex-grow: 1; 
+    text-align: right;
+    padding-right: 20px;
+    
+}
+
+/* #heading:hover{ */
+    /* transform:scale(1.2); */
+    /* box-shadow: 5px 10px 8px rgba(175, 2, 255, 1); */
+    /* border-radius: 15px; */
+    /* background-color:lightgoldenrodyellow; */
+/* } */
+.box{
+    height:150px;
+    width: 150px;
+    color:#A27B5C;
+text-align:center;
+font-family: 'Times New Roman', Times, serif;
+font-size:8em;
+border:2px solid black;
+border-radius:15px;
+background-color:#143D60;
+box-shadow:5px 10px 8px rgba(28, 16, 16, 0.538);
+
+}
+
+
+.box:hover{
+    border:3px solid rgb(0, 0, 0);
+    background-color:#7d7599;
+    box-shadow:10px 15px 10px rgba(0, 0, 0, 0.538);
+    transform:scale(1.2);
+    transition-duration:1ms;
+    transition-timing-function:ease;
+    background-size: cover;
+    color:transparent;
+}
+
+.navbar{
+    height:50px;
+    width:100%;
+    background-color:#3B8EA5;
+    border:2px solid lightblue;
+    border-radius:25px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* padding-top: 10px; */
+
+
+}
+
+img{
+    height:25px;
+    width:25px;
+    border-radius: 10px;
+    border:2px solid black;
+    /* margin-bottom: 30px; */
+    position:relative;
+    bottom:6px;
+}
+
+a{
+    color:black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    border:2px solid rgb(18, 16, 16);
+    border-radius: 10px;
+    background-color:rgb(180, 146, 146);
+    padding: 5px;
+}
+
+.option{
+    padding-left: 20px;
+    padding-top:15px;
+}
+
+a:hover{
+    background-color: antiquewhite;
+transition: 1ms;
+transition-timing-function: linear;
+transform: scale(1.3);
+box-shadow:2px 4px 5px black;
+}
+
+img:hover{
+    border: 2px solid red;
+    transform: scale(2);
+}
+
+@keyframes colorChange {
+    0% { color: red; }
+    1% { color: blue; }
+    2% { color: green; }
+    3% { color: orange; }
+    4% { color: purple; }
+    5% { color: yellow; }
+    6% { color: cyan; }
+    7% { color: pink; }
+    8% { color: lime; }
+    9% { color: brown; }
+    10% { color: magenta; }
+    11% { color: navy; }
+    12% { color: teal; }
+    13% { color: violet; }
+    14% { color: silver; }
+    15% { color: gold; }
+    16% { color: tomato; }
+    17% { color: coral; }
+    18% { color: darkgreen; }
+    19% { color: indigo; }
+    20% { color: darkblue; }
+    21% { color: darkred; }
+    22% { color: olive; }
+    23% { color: hotpink; }
+    24% { color: maroon; }
+    25% { color: peru; }
+    26% { color: crimson; }
+    27% { color: lavender; }
+    28% { color: khaki; }
+    29% { color: lightblue; }
+    30% { color: lightcoral; }
+    31% { color: mediumvioletred; }
+    32% { color: lightgreen; }
+    33% { color: slateblue; }
+    34% { color: darkorchid; }
+    35% { color: royalblue; }
+    36% { color: firebrick; }
+    37% { color: darkslategray; }
+    38% { color: dodgerblue; }
+    39% { color: mediumseagreen; }
+    40% { color: salmon; }
+    41% { color: seagreen; }
+    42% { color: steelblue; }
+    43% { color: chocolate; }
+    44% { color: fuchsia; }
+    45% { color: mediumorchid; }
+    46% { color: mediumturquoise; }
+    47% { color: sandybrown; }
+    48% { color: lightskyblue; }
+    49% { color: darksalmon; }
+    50% { color: mediumslateblue; }
+    51% { color: lawngreen; }
+    52% { color: darkcyan; }
+    53% { color: mediumspringgreen; }
+    54% { color: darkgoldenrod; }
+    55% { color: orchid; }
+    56% { color: palevioletred; }
+    57% { color: rebeccapurple; }
+    58% { color: sienna; }
+    59% { color: springgreen; }
+    60% { color: turquoise; }
+    61% { color: aquamarine; }
+    62% { color: cadetblue; }
+    63% { color: cornflowerblue; }
+    64% { color: goldenrod; }
+    65% { color: plum; }
+    66% { color: thistle; }
+    67% { color: bisque; }
+    68% { color: darkolivegreen; }
+    69% { color: palegreen; }
+    70% { color: midnightblue; }
+    71% { color: moccasin; }
+    72% { color: lightsteelblue; }
+    73% { color: darkmagenta; }
+    74% { color: peachpuff; }
+    75% { color: wheat; }
+    76% { color: slategray; }
+    77% { color: mintcream; }
+    78% { color: lightseagreen; }
+    79% { color: peru; }
+    80% { color: rosybrown; }
+    81% { color: seashell; }
+    82% { color: saddlebrown; }
+    83% { color: snow; }
+    84% { color: darkturquoise; }
+    85% { color: darkslateblue; }
+    86% { color: lavenderblush; }
+    87% { color: lemonchiffon; }
+    88% { color: darkseagreen; }
+    89% { color: lightslategray; }
+    90% { color: lightgoldenrodyellow; }
+    91% { color: deeppink; }
+    92% { color: dimgray; }
+    93% { color: lightcyan; }
+    94% { color: aliceblue; }
+    95% { color: honeydew; }
+    96% { color: oldlace; }
+    97% { color: lightpink; }
+    98% { color: powderblue; }
+    99% { color: azure; }
+    100% { color: red; } /* Back to starting color */
+}
+
+#heading {
+    font-size: 24px;
+    font-weight: bold;
+    animation: colorChange 10s infinite linear; /* Runs forever */
+}
+
+
+
+
+#box1:hover{
+    /* a */
+   background-image: url(https://img.freepik.com/free-psd/close-up-delicious-apple_23-2151868338.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box2:hover{
+    /* B */
+    background-image: url(https://img.freepik.com/free-vector/inflatable-beach-ball_1308-82988.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+
+#box3:hover{
+    /* C */
+    background-image: url(https://img.freepik.com/free-vector/sweet-eyed-kitten-cartoon-character_1308-135596.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box4:hover{
+    /* D */
+    background-image: url(https://img.freepik.com/free-vector/happy-cartoon-puppy-illustration_1308-166286.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box5:hover{
+    /* E */
+    background-image: url(https://img.freepik.com/premium-photo/elephant-with-mahout-elephant-village-thailand_66899-185.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box6:hover{
+    /* F */
+    background-image: url(https://img.freepik.com/premium-photo/tibetan-terrier-fan_87557-10117.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box7:hover{
+    /* G */
+    background-image: url(https://img.freepik.com/free-photo/delicious-bunch-grapes_1203-1891.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box8:hover{
+    /* H */
+    background-image: url(https://img.freepik.com/free-vector/big-fat-hen_1308-33412.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+   }
+#box9:hover{
+    /* I */
+    background-image: url(https://img.freepik.com/free-photo/delicious-ice-cream-with-topping_23-2150735486.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box10:hover{
+    /* J */
+    background-image: url(https://img.freepik.com/premium-photo/creepy-clown-with-green-shirt-green-hair_1142157-30633.jpg?w=826);
+}
+#box11:hover{
+    /* K */
+    background-image: url(https://img.freepik.com/premium-photo/hands-hold-beautiful-bright-rainbow-colorful-kite_212944-6701.jpg?w=740);
+}
+#box12:hover{
+    /* L */
+    background-image: url(https://img.freepik.com/free-photo/view-lion-animal-its-natural-habitat_23-2151657638.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box13:hover{
+    /* M */
+    background-image: url(https://img.freepik.com/free-photo/close-up-monkey-tree_23-2150822916.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box14:hover{
+    /* N */
+    background-image: url(https://img.freepik.com/free-photo/bird-nest-with-two-birds-gray-background-3d-illustration_1057-31963.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box15:hover{
+    /* 0 */
+    background-image: url(https://img.freepik.com/free-photo/view-realistic-owl-day_23-2151357370.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box16:hover{
+    /* P */
+    background-image: url(https://img.freepik.com/free-photo/beautiful-tropical-colorful-bird_23-2151875480.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box17:hover{
+    /* Q */
+    background-image: url(https://img.freepik.com/premium-photo/photo-princess_931878-352041.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box18:hover{
+    /* R */
+    background-image: url(https://img.freepik.com/free-photo/easter-celebration-with-bunny_23-2151198715.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box19:hover{
+    /* S */
+    background-image: url(https://img.freepik.com/premium-vector/radiant-sunshine-vector-art-illustration-vibrant-designs_1132808-410.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+    }
+#box20:hover{
+    /* T */
+    background-image: url(https://img.freepik.com/free-photo/close-up-wild-animal-nature_23-2151853155.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box21:hover{
+    /* U */
+    background-image: url(https://img.freepik.com/free-photo/side-view-asian-woman-with-umbrella_53876-104910.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box22:hover{
+    /* v */
+    background-image:url(https://img.freepik.com/premium-photo/clean-delivery-van-isolated-white_175634-38745.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box23:hover{
+    /* w */
+    background-image: url(https://img.freepik.com/premium-photo/man-elegant-watch-wooden-table-background_218381-983.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box24:hover{
+    /* x */
+    background-image: url(https://img.freepik.com/free-photo/beautifully-decorated-christmas-tree-city-street_23-2150960493.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box25:hover{
+    /* y */
+    background-image: url(https://img.freepik.com/free-photo/closeup-bison-bison-reserve-hunedoara-romania_181624-30445.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid);
+}
+#box26:hover{
+    /* z */
+    background-image: url(https://img.freepik.com/free-vector/cute-zebra-cartoon-animal-character_1308-149417.jpg?ga=GA1.1.247335923.1737204200&semt=ais_hybrid)
+}
